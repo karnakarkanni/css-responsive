@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: o;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 20px 20px 20px 20px;
+            background-color: rgb(234, 68, 68);
+           
+        }
+
+        .main {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+          
+        }
+        .k {
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+     
+        }
+
+        h3{
+            font-weight: 100;
+            color: white;
+            text-align-last: center;
+        }
+        h1{
+           
+            text-align-last: center;
+            text-shadow: 3px 3px 3px rgb(7, 7, 7);
+        }
+
+        p {
+            font-size: 12px;
+            text-align-last: center;
+            color: white;
+            text-align-last: center;
+           
+        }
+
+        @media screen and (min-width:300px) {
+            .main {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media screen and (min-width:600px) {
+            .main {
+                grid-template-columns: repeat(4, 1fr);
+            }
+    </style>
+
+</head>
+
+<body>
+    <h1 style="color: white; ">RESPONSIVE WEB PAGE</h1>
+    <div class="main">
+      
+        <div class="k">
+            <img src="https://www.w3schools.com/w3images/sandwich.jpg">
+            <div>
+                <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+        <div class="k">
+            <img src="https://www.w3schools.com/w3images/steak.jpg">
+            <div>
+                <h3>Let Me Tell You About This Steak
+                </h3>
+                <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.
+                </p>
+            </div>
+        </div>
+        <div class="k">
+            <img src="https://www.w3schools.com/w3images/cherries.jpg">
+            <div>
+
+                <h3>Cherries, interrupted</h3>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.
+
+                    What else?
+                </p>
+            </div>
+        </div>
+        <div class="k">
+
+            <img src=" https://www.w3schools.com/w3images/wine.jpg">
+            <div>
+                <h3>Once Again, Robust Wine and Vegetable Pasta
+                </h3>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
